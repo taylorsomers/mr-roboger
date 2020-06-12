@@ -1,6 +1,6 @@
-# [Program Title]
+# Mr Roboger
 
-  ### By [Author(s)]
+  ### By Taylor Somers
 
 ## Description
 
@@ -9,10 +9,16 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * [Unordered List]
+  * HTML
+  * JavaScript
+  * jQuery
+  * Markdown
 
   ### Operating Systems & Programs
-  * [Unordered List]
+  * Git Bash
+  * Microsoft Windows 10
+  * Mozilla Firefox
+  * Visual Studio Code
 
 ## Installation
 
@@ -28,20 +34,17 @@
 
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
+  | Program displays an error when a non-number is entered. |  |  |
+  | Program displays an error when a non-integer is entered. |  |  |
+  | Program displays an error when an integer less than 0 is entered. |  |  |
+  | Program displays a count of integers from 0 up to the integer the user inputs and includes the user-inputted integer in its count. |  |  |
+  | For numbers included in the program's count, if the number includes the digit 1, the program replaces that number in the count with "Beep!" |  |  |
+  | For numbers included in the program's count, if the number includes the digit 2, the program replaces that number in the count with "Boop!" |  |  |
+  | If a number included in the program's count includes both 1 *and* 2, the program replaces that number in the count with "Boop!" (*I.e., it prioritizes "Boop!" over "Beep!") |  |  |
+  | For numbers included in the program's count, if the number includes the digit 3, the program replaces that number in the count with "Won't you be my neighbor?" |  |  |
+  | If a number included in the program's count includes both 1 *and* 3, the program replaces that number in the count with "Won't you be my neighbor?" (*I.e.*, it prioritizes "Won't you be my neighbor?" over "Beep!") |  |  |
+  | If a number included in the program's count includes both *2* and 3, the program replaces that number in the count with "Won't you be my neighbor?" (*I.e.*, it prioritizes "Won't you be my neighbor?" over "Boop!") |  |  |
+  | The program allows the user to enter a new number once a result has been displayed and will produce new results as many times as new input is submitted. |  |  |
 
 ## Known Bugs
 
@@ -49,7 +52,7 @@
 
 ### Contributors
 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+  * Taylor Somers
 
 ### License
 
