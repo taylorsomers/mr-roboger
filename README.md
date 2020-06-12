@@ -35,8 +35,8 @@
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
   | Program displays an error when a non-number is entered. | "4", "a", "." | "4", "Please enter a whole number.", "Please enter a whole number." |
-  | Program displays an error when a non-integer is entered. |  |  |
-  | Program displays an error when an integer less than 0 is entered. |  |  |
+  | Program displays an error when a non-integer is entered. | "4", "4.5" | "4", "Please enter a whole number." |
+  | Program displays an error when an integer less than 0 is entered. | "0", "-1" | "0", "Please enter a whole number." |
   | Program displays a count of integers from 0 up to the integer the user inputs and includes the user-inputted integer in its count. |  |  |
   | For numbers included in the program's count, if the number includes the digit 1, the program replaces that number in the count with "Beep!" |  |  |
   | For numbers included in the program's count, if the number includes the digit 2, the program replaces that number in the count with "Boop!" |  |  |
