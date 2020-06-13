@@ -19,14 +19,36 @@ function validateNumber(input) {
   }
 }
 
+function roboOutputLogic(array) {
+  let output = [];
+  for (let i = 0; i <= array.length; i++) {
+    let oneBoolean = array.every(function(val) {
+      if (val !== 1) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+    if (!oneBoolean) {
+      output = ["Beep!"];
+    } else {
+      output = [array.join("")];
+    }
+  }
+  return output;
+}
+
+
 function roboConvert(array) {
   const roboConverted = [];
-  for (let i = 0; i <= array.length; i++) {
-    if (i === 1) {
-      roboConverted.push("Beep!");
-    } else {
-      roboConverted.push(i);
-    }
+  for (let i = 0; i < array.length; i++) {
+    let numberToCheck = i.toString();
+    let numberToCheckSplit = numberToCheck.split("");
+    let numberToCheckArray = numberToCheckSplit.map(function(digit) {
+      return parseInt(digit);
+    });
+    let roboOutput = roboOutputLogic(numberToCheckArray);
+    roboConverted.push(roboOutput);
   }
   return roboConverted;
 }
