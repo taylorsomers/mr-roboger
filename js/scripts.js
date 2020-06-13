@@ -19,6 +19,25 @@ function validateNumber(input) {
   }
 }
 
+// function roboOutputLogic(array) {
+//   let output = [];
+//   for (let i = 0; i <= array.length; i++) {
+//     let oneBoolean = array.every(function(val) {
+//       if (val !== 1) {
+//         return true;
+//       } else {
+//         return false;
+//       }
+//     });
+//     if (!oneBoolean) {
+//       output = ["Beep!"];
+//     } else {
+//       output = [array.join("")];
+//     }
+//   }
+//   return output;
+// }
+
 function roboOutputLogic(array) {
   let output = [];
   for (let i = 0; i <= array.length; i++) {
@@ -29,7 +48,16 @@ function roboOutputLogic(array) {
         return false;
       }
     });
-    if (!oneBoolean) {
+    let twoBoolean = array.every(function(val) {
+      if (val !== 2) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+    if (!twoBoolean) {
+      output = ["Boop!"];
+    } else if (!oneBoolean) {
       output = ["Beep!"];
     } else {
       output = [array.join("")];
@@ -37,7 +65,6 @@ function roboOutputLogic(array) {
   }
   return output;
 }
-
 
 function roboConvert(array) {
   const roboConverted = [];
