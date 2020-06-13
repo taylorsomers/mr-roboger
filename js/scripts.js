@@ -55,7 +55,16 @@ function roboOutputLogic(array) {
         return false;
       }
     });
-    if (!twoBoolean) {
+    let threeBoolean = array.every(function(val) {
+      if (val !== 3) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+    if (!threeBoolean) {
+      output = ["Won't you be my neighbor?"];
+    } else if (!twoBoolean) {
       output = ["Boop!"];
     } else if (!oneBoolean) {
       output = ["Beep!"];

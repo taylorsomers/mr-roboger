@@ -41,7 +41,7 @@
   | For numbers included in the program's count, if the number includes the digit 1, the program replaces that number in the count with "Beep!" | "1" | "0,Beep!" |
   | For numbers included in the program's count, if the number includes the digit 2, the program replaces that number in the count with "Boop!" | "2" | "0,Beep!,Boop!" |
   | If a number included in the program's count includes both 1 *and* 2, the program replaces that number in the count with "Boop!" (*I.e., it prioritizes "Boop!" over "Beep!") | "12" | "0,Beep!,Boop!,[. . .]9,Beep!,Beep!,Boop!" |
-  | For numbers included in the program's count, if the number includes the digit 3, the program replaces that number in the count with "Won't you be my neighbor?" |  |  |
+  | For numbers included in the program's count, if the number includes the digit 3, the program replaces that number in the count with "Won't you be my neighbor?" | "4" | "0,Beep!,Boop!,Won't you be my neighbor?" |
   | If a number included in the program's count includes both 1 *and* 3, the program replaces that number in the count with "Won't you be my neighbor?" (*I.e.*, it prioritizes "Won't you be my neighbor?" over "Beep!") |  |  |
   | If a number included in the program's count includes both *2* and 3, the program replaces that number in the count with "Won't you be my neighbor?" (*I.e.*, it prioritizes "Won't you be my neighbor?" over "Boop!") |  |  |
   | The program allows the user to enter a new number once a result has been displayed and will produce new results as many times as new input is submitted. |  |  |
