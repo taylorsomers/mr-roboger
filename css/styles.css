@@ -3,11 +3,15 @@ body {
 }
 
 .jumbotron {
-  background-color: white;
+  background-color: transparent;
   text-align: center;
+  color: white;
 }
 
 .well {
   background-color: white;
-  width: 67%;
+}
+
+#mr-roboger {
+  background-image: "img/mr-roboger.jpg"
 }

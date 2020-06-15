@@ -93,7 +93,7 @@ $(document).ready(function() {
     if (validated) {
       $("#results").text('"' + rangeCounted + '"');
     } else {
-      $("#results").text("Please enter a whole number.");
+      $("#results").text('"Please enter a whole number."');
     }
   });
 });
