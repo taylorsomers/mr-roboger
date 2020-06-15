@@ -1,0 +1,13 @@
+body {
+  font-family: 'Lucida Console';
+}
+
+.jumbotron {
+  background-color: white;
+  text-align: center;
+}
+
+.well {
+  background-color: white;
+  width: 67%;
+}

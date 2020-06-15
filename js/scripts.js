@@ -19,25 +19,6 @@ function validateNumber(input) {
   }
 }
 
-// function roboOutputLogic(array) {
-//   let output = [];
-//   for (let i = 0; i <= array.length; i++) {
-//     let oneBoolean = array.every(function(val) {
-//       if (val !== 1) {
-//         return true;
-//       } else {
-//         return false;
-//       }
-//     });
-//     if (!oneBoolean) {
-//       output = ["Beep!"];
-//     } else {
-//       output = [array.join("")];
-//     }
-//   }
-//   return output;
-// }
-
 function roboOutputLogic(array) {
   let output = [];
   for (let i = 0; i <= array.length; i++) {
@@ -108,9 +89,9 @@ $(document).ready(function() {
     const toValidate = $("#user-input").val();
     const userInteger = parseInt(toValidate);
     let validated = validateNumber(toValidate);
-    const rangeCounted = countUp(userInteger);
+    const rangeCounted = (countUp(userInteger)).join(", ");
     if (validated) {
-      $("#results").text(rangeCounted);
+      $("#results").text('"' + rangeCounted + '"');
     } else {
       $("#results").text("Please enter a whole number.");
     }
