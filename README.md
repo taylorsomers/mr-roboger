@@ -4,11 +4,13 @@
 
 ## Description
 
-  [Description of program functionality & intent presented as an elevator pitch]
+  This website takes a user-inputted integer and displays a count of numbers up to and including that integer. However, it simulates a "Mr Rogers" themed robot and replaces integers containing specific digits with output such as "Beep!", "Boop!", and "Won't you be my neighbor?" The purpose of the program is mostly to demonstrate some of the work we have been doing with arrays and loops in our Epicodus class.
 
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
+  * Bootstrap
+  * CSSS
   * HTML
   * JavaScript
   * jQuery
