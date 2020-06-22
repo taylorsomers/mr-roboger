@@ -4,7 +4,7 @@
 
 ## Description
 
-  This website takes a user-inputted integer and displays a count of numbers up to and including that integer. However, it simulates a "Mr Rogers" themed robot and replaces integers containing specific digits with output such as "Beep!", "Boop!", and "Won't you be my neighbor?" The purpose of the program is mostly to demonstrate some of the work we have been doing with arrays and loops in our Epicodus class.
+  This website is one of the weekly projects assigned at Epicodus and was created to demonstrate what I have learned so far regarding the use of arrays and looping in JavaScript, as well as JavaScript and jQuery methods for creating, transforming, and updating data in arrays. The website takes a user-inputted integer and displays a count of numbers up to and including that integer. However, it simulates a "Mr Rogers"-themed robot and replaces integers containing specific digits with output such as "Beep!", "Boop!", and "Won't you be my neighbor?" In addition to showcasing the new skills I have begun to cultivate in the use of arrays and looping, the website is the first major example of the separation of business and user-interface logic we have been able to produce, and demonstrates the ongoing development of my skills in using HTML, CSS, and Bootstrap to produce a simple yet highly functional user experience.
 
 ## Languages & Technologies Used:
 
